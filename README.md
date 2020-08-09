@@ -26,19 +26,27 @@ About this R script
 File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):
 
 Merging the training and the test sets to create one data set.
-1.1 Reading files
+1.1 Reading files 
+
+read files with the help of readtable
 1.1.1 Reading trainings tables
+read training table swith the help of links
 1.1.2 Reading testing tables
+same with reading tables
 1.1.3 Reading feature vector
+same with the features
 1.1.4 Reading activity labels
+same with acitivity 
 1.2 Assigning column names
+renamed column names for convenience
 1.3 Merging all data in one set
+merged datsets step by step and finally into one cleandata variable
 Extracting only the measurements on the mean and standard deviation for each measurement
 2.1 Reading column names
 2.2 Create vector for defining ID, mean and standard deviation
-2.3 Making nessesary subset from setAllInOne
+2.3 Making nessesary subset
 Using descriptive activity names to name the activities in the data set
 Appropriately labeling the data set with descriptive variable names
 Creating a second, independent tidy data set with the average of each variable for each activity and each subject
-5.1 Making second tidy data set
+5.1 Making second clean set
 5.2 Writing second tidy data set in txt file
